@@ -88,7 +88,7 @@ h1 a:hover {
 
 .card-category {
   background-color: var(--yellow);
-  color: var (--gray-950);
+  color: var(--gray-950);
   border-radius: 4px;
   font-size: 14px;
   font-weight: 800;
@@ -98,10 +98,13 @@ h1 a:hover {
 .card-date {
   color: var(--gray-950);
   font-size: 14px;
+  line-height: 150%;
 }
 
 .card-description {
   color: var(--gray-500);
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .card-author {

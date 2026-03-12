@@ -6,11 +6,10 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -21,8 +20,13 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
+Original Design:
+![Original design - desktop screenshot](<design/desktop-design.jpg>)
+![Original design - mobile screenshot](<design/mobile-design.jpg>)
+
+Solution:
 ![Desktop screenshot](<screenshots/Desktop view.png>)
 ![Mobile screenshot](<screenshots/Mobile view.png>)
 
@@ -42,36 +46,6 @@ Users should be able to:
 - Custom fonts using @font-face
 - Mobile-first workflow
 
-### What I learned
-
-While building this project, I practiced structuring a reusable card component and applying consistent styling using CSS variables.
-
-I also learned how to include local fonts using @font-face and manage different font weights from the same font family.
-
-Example of defining custom CSS variables:
-```css
-:root {
-  --yellow: hsl(47, 88%, 63%);
-  --white: hsl(0, 0%, 100%);
-  --gray-500: hsl(0, 0%, 42%);
-  --gray-950: hsl(0, 0%, 7%);
-}
-```
-I also practiced creating hover states for links:
-```css
-h1 a:hover {
-  color: var(--yellow);
-}
-```
-
-Using Flexbox made it easier to align elements such as the author avatar and name:
-```css
-.card-author {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-```
 
 ## Author
 

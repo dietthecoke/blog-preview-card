@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/dietthecoke/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://dietthecoke.github.io/blog-preview-card/)
+- [Solution URL](https://github.com/dietthecoke/blog-preview-card)
+- [Live site URL](https://dietthecoke.github.io/blog-preview-card/)
 
 ## My process
 
